@@ -1,31 +1,32 @@
 /*  your css code here. If applicable */
-:root{
-	background-color:rgb(135, 206, 235);
+:root {
+    --page-background: rgb(135, 206, 235);
 }
-P:first-child{
-	background-color:black;
-	color:rgb(255,255,255);
+
+body{
+	background-color:var(--page-background);
 }
-p:nth-child(2){
-	color:rgb(0,0,0);;
+
+article p:first-child {
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
-p:last-child{
+article p:last-child {
 	color:red;
 }
-ul>li{
-	      background-color:gray;
-	      width:50%;
-	      padding:10px;
+ul li {
+    background-color: gray;
+    width: 50%;
+    padding: 10px;
 }
-ul>li:nth-child(odd){
-	background-color:white;
+ul li:nth-child(odd) {
+    background-color: white;
 }
-ul>li:first-child{
-	font-size:22px;
-}
-ul>li:last-child{
-	font-size:22px;
-}
-ul>li:nth-child(3){
+ul li:nth-child(3){
 	background-color:pink;
+}
+ul li:first-child,
+ul li:last-child{
+	font-size:22px;
 }
