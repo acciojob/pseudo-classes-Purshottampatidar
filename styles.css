@@ -5,6 +5,7 @@
 
 body{
 	background-color:var(--page-background);
+	color:rgb(135,206,235);
 }
 
 article p:first-child {
